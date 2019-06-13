@@ -1,0 +1,22 @@
+@import '~bootstrap/scss/bootstrap';
+@import './custom';
+
+body{
+    background: url('/img/background.jpg');
+    background-attachment: fixed;
+    background-size: 154%;
+}
+
+#app{
+    .container{
+        // background: rgba(245, 242, 242, 0.527);
+        color: white;
+        .card{
+            .card-body{
+                .card-title{
+                    color:black;
+                }
+            }
+        }
+    }
+}
